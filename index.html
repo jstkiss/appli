@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - Mon Site Web</title>
+    <title>Votre Site</title>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="login.html">Connexion</a></li>
-            <li><a href="register.html">Inscription</a></li>
-        </ul>
-    </nav>
+    <h1>Bienvenue sur Votre Site</h1>
+    <div id="userWelcome"></div>
 
-    <!-- Contenu d'introduction -->
-    <section>
-        <h1>Bienvenue sur Mon Site Web</h1>
-        <p>Ceci est une introduction à votre site web. Vous pouvez ajouter plus de contenu ici.</p>
-    </section>
+    <!-- Liens de connexion, d'inscription et de déconnexion -->
+    <ul>
+        <!-- Vous pouvez cacher ces liens si l'utilisateur est connecté -->
+        <li><a href="login.html">Connexion</a></li>
+        <li><a href="register.html">Inscription</a></li>
+
+        <!-- Ce lien s'affichera uniquement si l'utilisateur est connecté -->
+        <li><a href="profile.html">Profil</a></li>
+
+        <!-- Lien de déconnexion -->
+        <li><a href="logout.php">Déconnexion</a></li>
+    </ul>
+
+    <!-- Votre contenu HTML -->
+
+    <script src="main.js"></script>
 </body>
 </html>
